@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Garrett - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header h2 {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+        }
+        .contact-info, .skills, .memberships, .athletics, .tutoring {
+            padding: 1rem;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            margin-top: 1rem;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Felipe Garrett</h1>
+        <h2>Aspiring Mathematician</h2>
+    </header>
+    <section>
+        <h2>Personal Information</h2>
+        <p><strong>Date of Birth:</strong> 20th July 2004</p>
+        <p><strong>Origin:</strong> La Paz, Bolivia</p>
+        <p><strong>Current Location:</strong> University of Notre Dame, United States</p>
+        <p><strong>Major:</strong> Applied and Computational Mathematics and Statistics (ACMS)</p>
+        <p><strong>Contact:</strong> fgarret2@nd.edu | +1 (312) 978-5485</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/felipe-garrett-larrabure/" target="_blank">Felipe Garrett's LinkedIn</a></p>
+        <img src=“PERSONAL.jpg” alt="Felipe Garrett Personal Picture">
+    </section>
+    <section>
+        <h2>Education</h2>
+        <p><strong>University of Notre Dame:</strong> Major in Applied and Computational Mathematics and Statistics, Minor in Business (GPA: 3.8, Expected Graduation: May 2027)</p>
+        <p><strong>German School La Paz:</strong> Valedictorian with the highest grade in the last ten years (GPA: 4.0/4.0)</p>
+        <img src="images/Panoramic.jpg" alt="Notre Dame">
+    </section>
+    <section>
+        <h2>Relevant Experience</h2>
+        <div>
+            <h3>Non-Profit Consulting Externship with PwC</h3>
+            <p>Conducted data analysis and presented findings with interactive dashboards.</p>
+            <img src="images/pwc.png" alt="PwC Logo">
+        </div>
+        <div>
+            <h3>Banco Nacional de Bolivia</h3>
+            <p>Fixed mathematical models for RORAC systems.</p>
+            <img src=“BNB.jpg” alt="Banco Nacional de Bolivia">
+        </div>
+        <div>
+            <h3>Fundación SOLYDES</h3>
+            <p>Worked on investment projects and the Bolivian startup ecosystem.</p>
+            <img src="images/solydes.png" alt="Fundación SOLYDES Logo">
+        </div>
+        <div>
+            <h3>Student International Business Council (SIBC) - PwC Travel Team</h3>
+            <p>Developed and presented a market entry plan for a cyber insurance company in the US.</p>
+            <img src="images/SIBC.”jpg alt="SIBC Logo">
+        </div>
+    </section>
+    <section>
+        <h2>Tutoring</h2>
+        <div class="tutoring">
+            <p><strong>Learning Resource Center:</strong> Mathematics Tutor for Precalculus and Calculus.</p>
+            <img src="images/LRC.jpg” alt="Learning Resource Center">
+            <p><strong>Center of the Study of Languages and Cultures:</strong> Spanish Tutor for courses from levels 100 to 400.</p>
+            <img src="images/cslc.png" alt="CSLC Logo">
+        </div>
+    </section>
+    <section>
+        <h2>Athletics</h2>
+        <p>Professional Soccer Player for Club The Strongest, Bolivian Professional Soccer League.</p>
+        <p>Captain of the Reserve Team: Led the pre-professional team.</p>
+        <img src=“SOCCER.jpg” alt="Felipe Garrett Playing Soccer">
+    </section>
+    <section>
+        <h2>Memberships and Leadership</h2>
+        <div class="memberships">
+            <p>Association of Latino Professionals for America: Member.</p>
+            <p>Latino Honor Society: Leader fostering cultural awareness.</p>
+            <p>Health Awareness Organization: Initiatives for mental health support.</p>
+        </div>
+    </section>
+    <section>
+        <h2>Skills and Interests</h2>
+        <div class="skills">
+            <p><strong>Skills:</strong> CAS, Python, Microsoft Office</p>
+            <p><strong>Languages:</strong> Spanish (Native), English (Fluent), German (Proficient)</p>
+            <p><strong>Interests:</strong> History (20th Century), Bible Studies, Geometry, Professional Chess, Professional Soccer</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Felipe Garrett</p>
+    </footer>
+</body>
+</html>
